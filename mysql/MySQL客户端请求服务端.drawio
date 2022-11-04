@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T03:47:12.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nrB8x0Chi-BwVlN_n86z" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-04T07:17:03.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="u_B2nBj82J528JWV7p3a" version="20.5.1" type="github" pages="6">
   <diagram id="d4oZ5c8wD7mMRkENbx5g" name="服务器处理客户端请求">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,10 +316,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OWdMWggZUANXXC-HVxcE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="OWdMWggZUANXXC-HVxcE-1" value="01 03 04" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="110" y="190" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OWdMWggZUANXXC-HVxcE-2" value="NULL 值列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="OWdMWggZUANXXC-HVxcE-2" value="00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="230" y="190" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OWdMWggZUANXXC-HVxcE-3" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -334,10 +334,10 @@
         <mxCell id="OWdMWggZUANXXC-HVxcE-6" value="列n的值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="550" y="190" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OWdMWggZUANXXC-HVxcE-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="OWdMWggZUANXXC-HVxcE-14" value="03 04" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="110" y="230" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OWdMWggZUANXXC-HVxcE-15" value="NULL 值列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="OWdMWggZUANXXC-HVxcE-15" value="06" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="230" y="230" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OWdMWggZUANXXC-HVxcE-16" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -351,6 +351,12 @@
         </mxCell>
         <mxCell id="OWdMWggZUANXXC-HVxcE-19" value="列n的值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="550" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWdMWggZUANXXC-HVxcE-20" value="第一条记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWdMWggZUANXXC-HVxcE-21" value="第二条记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="235" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
