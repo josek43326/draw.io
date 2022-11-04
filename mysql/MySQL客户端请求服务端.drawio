@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T07:17:03.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="u_B2nBj82J528JWV7p3a" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-04T07:45:49.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JvK11lxXOImlLwEo9LOB" version="20.5.1" type="github" pages="6">
   <diagram id="d4oZ5c8wD7mMRkENbx5g" name="服务器处理客户端请求">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rONKOYbSbHq9hKiYG8cw" name="记录格式案例">
+  <diagram id="rONKOYbSbHq9hKiYG8cw" name="compact记录格式案例">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
