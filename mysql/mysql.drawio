@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T09:09:02.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="poqW9GRU4dlNZzlvoPXL" version="20.5.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-11-21T09:19:02.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qVOV37kd5-TgVgLv0kzs" version="20.5.3" type="github" pages="20">
   <diagram id="d4oZ5c8wD7mMRkENbx5g" name="服务器处理客户端请求">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3229,7 +3229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O7nblTGfS-zxAaVj10SI" name="XDES Entry">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3288,7 +3288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wvq6soctziPQ5UXCHloe" name="链表基节点">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3323,10 +3323,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TnhRLDjPquxQfraUixPp" name="INODE Entry">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_QREaWtsysHKa0wtdWRD-2" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="9BWWAl1nIwB2mcjojlxC-2" target="lYAwGmujJxG9z6cArDQr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9BWWAl1nIwB2mcjojlxC-1" value="Segment Id（8字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="110" y="110" width="200" height="40" as="geometry" />
         </mxCell>
@@ -3354,17 +3360,50 @@
         <mxCell id="9BWWAl1nIwB2mcjojlxC-12" value="Fragment For Entry 31（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="110" y="390" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9BWWAl1nIwB2mcjojlxC-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="310" y="180" width="20" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="9BWWAl1nIwB2mcjojlxC-14" value="&lt;font color=&quot;#000000&quot;&gt;对应 &lt;/font&gt;FREE、NOT_FULL、FULL&lt;font color=&quot;#000000&quot;&gt;链表的基节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="225" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="9BWWAl1nIwB2mcjojlxC-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="310" y="330" width="20" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9BWWAl1nIwB2mcjojlxC-16" value="&lt;font color=&quot;#000000&quot;&gt;32个 Fragment Array Entry&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="330" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="430" y="165" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-1" value="List Length（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-2" value="First Node Offset（2字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-3" value="Last Node Page Number（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-4" value="Last Node Offset（2字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-5" value="First Node Page Number（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry x="200" y="30" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry x="200" y="90" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-8" value="指向 XDES Entry&lt;br&gt;链表&lt;font color=&quot;#ff0000&quot;&gt;头节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry x="210" y="45" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lYAwGmujJxG9z6cArDQr-9" value="指向 XDES Entry&lt;br&gt;链表&lt;font color=&quot;#ff0000&quot;&gt;尾节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lYAwGmujJxG9z6cArDQr-10">
+          <mxGeometry x="210" y="105" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QREaWtsysHKa0wtdWRD-1" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="9BWWAl1nIwB2mcjojlxC-5" target="lYAwGmujJxG9z6cArDQr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-14" value="&lt;font color=&quot;#000000&quot;&gt;对应 &lt;/font&gt;FREE、&lt;br&gt;NOT_FULL、&lt;br&gt;FULL&lt;font color=&quot;#000000&quot;&gt;链表的基节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
