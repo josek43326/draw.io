@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T08:34:09.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wCw2rCoUh59u4hmjXept" version="20.5.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-11-21T09:02:09.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_1EcehG29WAguOCchQlh" version="20.5.3" type="github" pages="20">
   <diagram id="d4oZ5c8wD7mMRkENbx5g" name="服务器处理客户端请求">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3288,7 +3288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wvq6soctziPQ5UXCHloe" name="链表基节点">
-    <mxGraphModel dx="783" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3318,6 +3318,53 @@
         </mxCell>
         <mxCell id="DTGxWU05ki-9dd3RUbub-13" value="指向 XDES Entry&lt;br&gt;链表&lt;font color=&quot;#ff0000&quot;&gt;尾节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="215" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TnhRLDjPquxQfraUixPp" name="INODE Entry">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-1" value="Segment Id（8字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-2" value="List Base Node For Free List&lt;br&gt;（16字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-3" value="Magic Number（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-5" value="NOT_FULL_N_USED（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-6" value="List Base Node For NOT_FULL List（16字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-7" value="List Base Node For FULL List&lt;br&gt;（16字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-8" value="Fragment For Entry 0（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-11" value="......" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-12" value="Fragment For Entry 31（4字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-14" value="&lt;font color=&quot;#000000&quot;&gt;对应 &lt;/font&gt;FREE、NOT_FULL、FULL&lt;font color=&quot;#000000&quot;&gt;链表的基节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="225" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9BWWAl1nIwB2mcjojlxC-16" value="&lt;font color=&quot;#000000&quot;&gt;32个 Fragment Array Entry&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
