@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:30:46.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EA7PIBK373VGnn93cuO7" version="20.6.0" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:31:07.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Z1G3j50IXvK0AgY4-SDJ" version="20.6.0" type="github" pages="29">
   <diagram id="d4oZ5c8wD7mMRkENbx5g" name="服务器处理客户端请求">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4898,6 +4898,18 @@
         </mxCell>
         <mxCell id="UMv4ptsecuHV1GLbypdM-7" value="Segment Header（10 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="533" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8vrdZMgBkRSb5KwMZtTg-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="E6zWNXWjPiEVPloQRTzo-43" target="UMv4ptsecuHV1GLbypdM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8vrdZMgBkRSb5KwMZtTg-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E6zWNXWjPiEVPloQRTzo-43" target="UMv4ptsecuHV1GLbypdM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
