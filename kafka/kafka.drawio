@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T02:58:53.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Gn91liRZucD2AZBLIw9z" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-22T03:19:05.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pGFVl9om-Rdkmy-RczB0" version="20.7.4" type="github" pages="4">
   <diagram id="4SkTDuRXR0Ugd_pNj_r-" name="HW &amp; LEO">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -366,6 +366,15 @@
         </mxCell>
         <mxCell id="RNF12om5NSOAs_fBo1D7-30" value="follower1完全与leader同步，follower2只同步部分消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="179" y="254" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNF12om5NSOAs_fBo1D7-31" value="" style="endArrow=block;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="508" y="223" as="sourcePoint" />
+            <mxPoint x="478" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNF12om5NSOAs_fBo1D7-32" value="LEO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="469" y="194" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
