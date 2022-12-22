@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T07:53:14.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CHqUHN-gLNyYFgalJCTu" version="20.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-22T08:03:40.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qF7Oo_ENiRyqEqixjXbN" version="20.7.4" type="github" pages="7">
   <diagram id="kP-5cvlrTHaxsTImiW3Y" name="连接查询">
-    <mxGraphModel dx="854" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1001,6 +1001,26 @@
         </mxCell>
         <mxCell id="9YCKA41wW1IZ-NWOrGOz-20" value="遇到错误或手动停止" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4Z6LgTEi3Rhtyow9bGhl" name="redo日志通用结构">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7VIEqlaziU4gB7bP-p6k-1" value="type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7VIEqlaziU4gB7bP-p6k-2" value="space Id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7VIEqlaziU4gB7bP-p6k-3" value="page number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7VIEqlaziU4gB7bP-p6k-4" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
