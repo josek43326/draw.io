@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T09:21:27.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="x11727n0dUvZWaB3WgLC" version="20.7.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-12-23T09:24:00.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eZIoHNfpIMMi3IXI_Wnc" version="20.7.4" type="github" pages="10">
   <diagram id="kP-5cvlrTHaxsTImiW3Y" name="连接查询">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1142,8 +1142,8 @@
         <mxCell id="YaLzmkTSBNIp5VzEkuuT-1" value="该条记录的字段数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="343" y="100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaLzmkTSBNIp5VzEkuuT-2" value="该条记录唯一字段数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="343" y="130" width="127" height="30" as="geometry" />
+        <mxCell id="YaLzmkTSBNIp5VzEkuuT-2" value="决定该记录唯一的字段数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="130" width="167" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLzmkTSBNIp5VzEkuuT-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="340" y="160" width="20" height="90" as="geometry" />
