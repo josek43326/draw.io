@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T09:20:50.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vU47PoL2uxcu_06Whw1u" version="20.7.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-12-23T09:21:27.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="x11727n0dUvZWaB3WgLC" version="20.7.4" type="github" pages="10">
   <diagram id="kP-5cvlrTHaxsTImiW3Y" name="连接查询">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1154,14 +1154,14 @@
         <mxCell id="YaLzmkTSBNIp5VzEkuuT-5" value="前一条记录的地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="329.5" y="250" width="127" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaLzmkTSBNIp5VzEkuuT-6" value="通过该字段计算当前记录占用存储空间大小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="280" width="127" height="30" as="geometry" />
+        <mxCell id="YaLzmkTSBNIp5VzEkuuT-6" value="通过该字段计算当前&lt;br&gt;记录占用存储空间大小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113" y="280" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLzmkTSBNIp5VzEkuuT-7" value="记录头信息前4个bit的值&lt;br&gt;及record_type的值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaLzmkTSBNIp5VzEkuuT-8" value="记录额外信息占用的存储空间大小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="340" width="140" height="30" as="geometry" />
+        <mxCell id="YaLzmkTSBNIp5VzEkuuT-8" value="记录额外信息占用&lt;br&gt;的存储空间大小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113" y="340" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
