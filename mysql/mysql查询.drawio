@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T07:39:53.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QmOgta7xn9FnXTa6PV1-" version="20.8.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2023-01-09T08:37:48.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="kNSFHiACjsFbJBNjTo8I" version="20.8.1" type="github" pages="27">
   <diagram id="kP-5cvlrTHaxsTImiW3Y" name="连接查询">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2448,6 +2448,53 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="270" as="sourcePoint" />
             <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OYMXH3JakYLnxnzwumsI" name="Undo Log Segment Header">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-1" value="File Header （38 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-2" value="Undo Page Header（18 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-3" value="Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-4" value="File Trailer （8 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-5" value="Undo Log Segment Header&lt;br&gt;（30 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-6" value="TRX_UNDO_STATE&lt;br&gt;（2 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-9" value="TRX_UNDO_PAGE_LIST&lt;br&gt;（30 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-10" value="TRX_UNDO_LAST_LOG&lt;br&gt;（2 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="420" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-11" value="TRX_UNDO_FSEG_HEADER&lt;br&gt;（10 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bpmG1k4nF1LLKR4SDx_-5" target="4bpmG1k4nF1LLKR4SDx_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bpmG1k4nF1LLKR4SDx_-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bpmG1k4nF1LLKR4SDx_-5" target="4bpmG1k4nF1LLKR4SDx_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
