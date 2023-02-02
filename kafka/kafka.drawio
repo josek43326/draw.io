@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T03:36:55.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7Q-OVpT9d0wzZjAeWDxR" version="20.8.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-02T03:38:10.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uVeAiXZ-rN7Sa66dp2XP" version="20.8.3" type="github" pages="7">
   <diagram id="4SkTDuRXR0Ugd_pNj_r-" name="HW &amp; LEO">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -775,7 +775,7 @@
             <mxPoint x="395" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fNap76_zqMnuY_uJ79v2-9" value="主线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="fNap76_zqMnuY_uJ79v2-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;主线程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNap76_zqMnuY_uJ79v2-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -799,7 +799,7 @@
         <mxCell id="fNap76_zqMnuY_uJ79v2-16" value="ProducerBatch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="210" y="370.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fNap76_zqMnuY_uJ79v2-17" value="消息累加器 RecordAccumulator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fNap76_zqMnuY_uJ79v2-17" value="&lt;b&gt;消息累加器 RecordAccumulator&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="340" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNap76_zqMnuY_uJ79v2-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -955,8 +955,8 @@
             <mxPoint x="400" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fNap76_zqMnuY_uJ79v2-70" value="Sender 线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="60" width="80" height="30" as="geometry" />
+        <mxCell id="fNap76_zqMnuY_uJ79v2-70" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sender 线程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNap76_zqMnuY_uJ79v2-73" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fNap76_zqMnuY_uJ79v2-61" target="fNap76_zqMnuY_uJ79v2-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
