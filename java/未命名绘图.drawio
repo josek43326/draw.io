@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2023-03-06T06:24:17.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1aPq9d6fkjOetDaOesL8" version="21.0.2" type="github" pages="2">
+  <diagram id="O7pPCtJhnp9RhiGo_q5N" name="运行时数据区域（旧）">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="61ENZFUCJouTjVSc7NG1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="70" y="130" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-3" value="运行时常量池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="230" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-4" value="JIT代码缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-5" value="字符串常量池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="230" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-6" value="静态变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="230" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="90" width="90" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-8" value="类信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-9" value="字段信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-10" value="方法表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="220" as="sourcePoint" />
+            <mxPoint x="155" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-12" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="405" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="61ENZFUCJouTjVSc7NG1-13" value="方法区（永久代）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M7XKdc1zeiAv-hPEmWxM" name="运行时数据区（新）">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-3" value="运行时常量池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-4" value="JIT代码缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="110" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-5" value="字符串常量池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="160" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-6" value="静态变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="230" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-8" value="类信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-9" value="字段信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-10" value="方法表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="220" as="sourcePoint" />
+            <mxPoint x="155" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-12" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehPr-6aGS_VOLnWbq9fu-13" value="方法区（元空间）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
