@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T09:40:03.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4nzvWFAoaS0W6E6Xc5E7" version="21.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-10T09:41:45.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oa0M33cIEPAxglrNCcvz" version="21.0.4" type="github" pages="9">
   <diagram id="O7pPCtJhnp9RhiGo_q5N" name="运行时数据区域（旧）">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -940,7 +940,7 @@
             <mxPoint x="570" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-104" value="委托单是更新同步电网状态的关键位置&lt;br&gt;1、如果没有委托单数据，表示挂单失败，将所有中报中的状态更新为申报失败&lt;br&gt;2、如果有委托单数据，按照时段进行分组&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1、某个时段没有数据，但是数据库的状态是申报中，则更新为申报失败&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;2、某个时段有委托单数据，且数据库有当前时段的申报记录，以当前&lt;font color=&quot;#ff0000&quot;&gt;最新一条&lt;/font&gt;委托单的数据按照状态映射更新为对应的状态，更新条件必须满足委托单数据的时间大于等于数据库中的申报时间；如果当前时段无申报记录，直接插入数据即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-104" value="委托单是更新同步电网状态的关键位置&lt;br&gt;1、如果没有委托单数据，表示挂单失败，将所有申报中的状态更新为申报失败&lt;br&gt;2、如果有委托单数据，按照时段进行分组&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1、某个时段没有数据，但是数据库的状态是申报中，则更新为申报失败&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;2、某个时段有委托单数据，且数据库有当前时段的申报记录，以当前&lt;font color=&quot;#ff0000&quot;&gt;最新一条&lt;/font&gt;委托单的数据按照状态映射更新为对应的状态，更新条件必须满足委托单数据的时间大于等于数据库中的申报时间；如果当前时段无申报记录，直接插入数据即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="243" y="795" width="465" height="140" as="geometry" />
         </mxCell>
         <mxCell id="GpCN3LuU1r6hxHBUq_AJ-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-37" target="GpCN3LuU1r6hxHBUq_AJ-104">
