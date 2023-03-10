@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T07:04:43.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RAu0-9w7FZvCzPJPPoBQ" version="21.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-10T09:40:03.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4nzvWFAoaS0W6E6Xc5E7" version="21.0.4" type="github" pages="9">
   <diagram id="O7pPCtJhnp9RhiGo_q5N" name="运行时数据区域（旧）">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -641,6 +641,313 @@
         </mxCell>
         <mxCell id="7LkHnyQiJqM2UFotucnl-36" value="safepoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RpGBypa_m6LRE81H_BRR" name="申报和盯盘流程">
+    <mxGraphModel dx="2203" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="30" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="320" as="sourcePoint" />
+            <mxPoint x="720" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-5" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="386" width="90" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-6" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="460" width="90" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-7" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="90" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-10" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="386" width="90" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-12" value="交易终端Page" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="475" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-13" value="插件" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-18" value="成交明细" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="60" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-19" value="委托单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-20" value="买卖详情" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="110" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-22" value="量价详情" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-23" value="基础表格数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-24" value="前置数据&lt;br&gt;（用于抢单）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-25" value="撤单响&lt;br&gt;应消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.5" y="250" width="53" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-26" value="申报响&lt;br&gt;应消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167" y="250" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-27" value="电网系统" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-110" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-31" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-30">
+          <mxGeometry x="-0.4056" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-32" value="盯盘数据获取部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-33" value="盯盘数据" style="endArrow=classic;html=1;rounded=0;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-27" target="GpCN3LuU1r6hxHBUq_AJ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="440" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-34" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="580" width="260" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-35" value="ParseDealDetailStrategyImpl&lt;br&gt;解析成交明细列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="610" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-36" value="盯盘数据消息解析器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-37" value="ParseDelegateDataStrategyImpl&lt;br&gt;解析委托单数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="650" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-38" value="ParseDishDataStrategyImpl&lt;br&gt;解析买卖详情数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="690" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-39" value="ParsePositionInfoStrategyImpl&lt;br&gt;解析基础表格的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="730" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-40" value="ParsePriceEnergyLineStrategyImpl&lt;br&gt;解析详情展示量价图表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="770" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-43" value="ParseInitListingStrategyImpl&lt;br&gt;解析initListing返回的前置数据&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;font-family:等线;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="810" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-44" value="ParseQuerySeqOutStrategyImpl&lt;br&gt;解析querySeqOut返回的前置数据&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;font-family:等线;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="850" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-45" value="ParseQueryTradeUnitStrategyImpl&lt;br&gt;解析queryTradeUnit返回的前置数据&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;font-family:等线;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="890" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-46" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-47" value="ParseDeclareDataReceivedStrategyImpl&lt;br&gt;解析申报返回数据【做日志记录】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-48" value="申报、撤单消息解析器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-49" value="ParseDeclareInfoStrategyImpl&lt;br&gt;解析申报返回数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-50" value="ParseRevokeInfoStrategyImpl&lt;br&gt;解析撤单返回数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-4" target="GpCN3LuU1r6hxHBUq_AJ-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="230" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-58" value="申报请求数据&lt;br&gt;同时状态更新为申报中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-59" value="撤单请求数据&lt;br&gt;同时状态更新为撤单中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="120" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.671;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-58" target="GpCN3LuU1r6hxHBUq_AJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-62" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-60">
+          <mxGeometry x="-0.2642" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.558;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.919;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-59" target="GpCN3LuU1r6hxHBUq_AJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-63" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-61">
+          <mxGeometry x="-0.2422" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-67" value="HTTP请求内部转发&lt;br&gt;找到当前场站用户连接的服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="435" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GpCN3LuU1r6hxHBUq_AJ-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-70" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-69">
+          <mxGeometry x="0.182" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-73" value="交易终端Server" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-76" value="申报请&lt;br&gt;求数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="266" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-77" value="处理申报请求&lt;br&gt;数据并发送，根据电网接口返回申报消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-80" value="处理撤单请求&lt;br&gt;数据并发送，根据电网接口返回撤单消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="66" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-77" target="GpCN3LuU1r6hxHBUq_AJ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="290" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-82" value="申报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-81">
+          <mxGeometry x="0.5036" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-83" value="申报响应" style="endArrow=classic;html=1;rounded=0;exitX=0.376;exitY=0.922;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-27" target="GpCN3LuU1r6hxHBUq_AJ-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="290" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.181;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-77" target="GpCN3LuU1r6hxHBUq_AJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-85" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-84">
+          <mxGeometry x="0.5859" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.312;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-4" target="GpCN3LuU1r6hxHBUq_AJ-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-87" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-86">
+          <mxGeometry x="-0.7781" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-88" value="撤单请求数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="260" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.411;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.813;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-80" target="GpCN3LuU1r6hxHBUq_AJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-90" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-89">
+          <mxGeometry x="0.7493" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.687;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-80" target="GpCN3LuU1r6hxHBUq_AJ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="60" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-96" value="撤单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-95">
+          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-27" target="GpCN3LuU1r6hxHBUq_AJ-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-98" value="撤单响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpCN3LuU1r6hxHBUq_AJ-97">
+          <mxGeometry x="0.5706" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-100" value="1、消息为success，且内部消息状态也为sucess则为申报成功，此时仍然更新状态为申报中，此时的申报中仅仅意味着电网的申报接口调用成功，真正挂单成功是根据《委托单》来更新的；否则更新为申报失败&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;2、finish 表示电网登录失效，状态更新为申报失败&lt;br&gt;3、其余状态更新为申报失败" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="580" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-101" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、消息为success，且内部消息状态也为sucess则为撤单成功，状态更新为已撤单，否则更新为撤单失败&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、finish 表示电网登录失效，状态更新为撤单失败&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;3、其余状态更新为撤单失败&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="700" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-49" target="GpCN3LuU1r6hxHBUq_AJ-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="660" as="sourcePoint" />
+            <mxPoint x="390" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-50" target="GpCN3LuU1r6hxHBUq_AJ-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="650" as="sourcePoint" />
+            <mxPoint x="570" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-104" value="委托单是更新同步电网状态的关键位置&lt;br&gt;1、如果没有委托单数据，表示挂单失败，将所有中报中的状态更新为申报失败&lt;br&gt;2、如果有委托单数据，按照时段进行分组&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1、某个时段没有数据，但是数据库的状态是申报中，则更新为申报失败&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;2、某个时段有委托单数据，且数据库有当前时段的申报记录，以当前&lt;font color=&quot;#ff0000&quot;&gt;最新一条&lt;/font&gt;委托单的数据按照状态映射更新为对应的状态，更新条件必须满足委托单数据的时间大于等于数据库中的申报时间；如果当前时段无申报记录，直接插入数据即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243" y="795" width="465" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GpCN3LuU1r6hxHBUq_AJ-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpCN3LuU1r6hxHBUq_AJ-37" target="GpCN3LuU1r6hxHBUq_AJ-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="780" as="sourcePoint" />
+            <mxPoint x="460" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
