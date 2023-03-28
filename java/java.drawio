@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T14:26:06.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Ihdw8g_ReRxC1AKa7Clt" version="21.1.1" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-28T14:31:25.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="c5mY7QDu_aDHrbm4pgsn" version="21.1.1" type="github" pages="14">
   <diagram id="O7pPCtJhnp9RhiGo_q5N" name="运行时数据区域（旧）">
     <mxGraphModel dx="692" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1302,6 +1302,50 @@
         </mxCell>
         <mxCell id="cI051jQVHja7NjXhz_y8-13" value="管道中处理器的顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_uu9yA8DBOky3AKveXwZ" name="websocket握手成功后顺序">
+    <mxGraphModel dx="980" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-2" value="head" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-3" value="WebSocketFrameDecoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-6" value="tail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-8" value="Utf8FrameValidator&lt;span lang=&quot;en-US&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-9" value="WebSocketServerProtocolHandler&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="300" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VbhKQWDmlA9QSfJODmCU-13" target="VbhKQWDmlA9QSfJODmCU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="260" as="sourcePoint" />
+            <mxPoint x="207.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VbhKQWDmlA9QSfJODmCU-9" target="VbhKQWDmlA9QSfJODmCU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-12" value="管道中处理器的顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbhKQWDmlA9QSfJODmCU-13" value="WebSocketFrameEncoderf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
