@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T09:46:21.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g4EPkRz7KVKWKn-DNrv9" version="21.3.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:47:58.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3M-p6VUgokEf0irTXFL6" version="21.3.5" type="github" pages="13">
   <diagram id="HF3RktrZU0UXcG0_zIV3" name="Spring实例化示意图">
     <mxGraphModel dx="1194" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,13 +497,13 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-2" target="9SPd8WS1dJDFENpfBFIL-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-2" value="从一级缓存获取不到实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="30" y="180" width="150" height="30" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-2" value="从一级缓存获取不到ABean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="15" y="180" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-3" target="9SPd8WS1dJDFENpfBFIL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-3" value="创建实例 ABean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-3" value="创建 ABean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="30" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-4" target="9SPd8WS1dJDFENpfBFIL-5">
@@ -532,13 +532,13 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-8" target="9SPd8WS1dJDFENpfBFIL-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-8" value="从一级缓存获取不到实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="255" y="180" width="150" height="30" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-8" value="从一级缓存获取不到BBean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="180" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-9" target="9SPd8WS1dJDFENpfBFIL-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-9" value="创建实例 BBean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-9" value="创建 BBean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="255" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.555;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-10" target="9SPd8WS1dJDFENpfBFIL-11">
