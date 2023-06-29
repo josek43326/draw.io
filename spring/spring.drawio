@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T09:43:24.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wji2BTLNp-po_n_6qoqi" version="21.3.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:46:21.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g4EPkRz7KVKWKn-DNrv9" version="21.3.5" type="github" pages="13">
   <diagram id="HF3RktrZU0UXcG0_zIV3" name="Spring实例化示意图">
     <mxGraphModel dx="1194" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -503,14 +503,14 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-3" target="9SPd8WS1dJDFENpfBFIL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-3" value="创建实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-3" value="创建实例 ABean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="30" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-4" target="9SPd8WS1dJDFENpfBFIL-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-4" value="提前暴露，添加工厂到三级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="320" width="180" height="30" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-4" value="提前暴露，添加ABean单例工厂到三级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-5" target="9SPd8WS1dJDFENpfBFIL-7">
           <mxGeometry relative="1" as="geometry">
@@ -520,7 +520,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-5" value="依赖注入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-5" value="ABean 依赖注入 BBean" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="35" y="380" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-7" target="9SPd8WS1dJDFENpfBFIL-8">
@@ -538,19 +538,19 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-9" target="9SPd8WS1dJDFENpfBFIL-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-9" value="创建实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-9" value="创建实例 BBean实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="255" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.555;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-10" target="9SPd8WS1dJDFENpfBFIL-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-10" value="提前暴露，添加工厂到三级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="240" y="320" width="180" height="30" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-10" value="提前暴露，添加BBean单例工厂到三级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-11" target="9SPd8WS1dJDFENpfBFIL-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-11" value="依赖注入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-11" value="BBean 依赖注入 ABean" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="255" y="380" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-12" target="9SPd8WS1dJDFENpfBFIL-13">
@@ -562,14 +562,14 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-13" target="9SPd8WS1dJDFENpfBFIL-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-13" value="从三级缓存获取到实例，&lt;br&gt;添加实例到二级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="470" y="180" width="150" height="40" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-13" value="从三级缓存获取到ABean实例，&lt;br&gt;添加ABean实例到二级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="455" y="180" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-14" target="9SPd8WS1dJDFENpfBFIL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-14" value="BBean依赖注入ABean成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="495" y="250" width="100" height="30" as="geometry" />
+          <mxGeometry x="470" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-15" target="9SPd8WS1dJDFENpfBFIL-16">
           <mxGeometry relative="1" as="geometry" />
@@ -586,23 +586,23 @@
         <mxCell id="9SPd8WS1dJDFENpfBFIL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-17" target="9SPd8WS1dJDFENpfBFIL-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SPd8WS1dJDFENpfBFIL-17" value="ABean依赖注入&lt;br&gt;BBean成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="110" width="120" height="30" as="geometry" />
+        <mxCell id="9SPd8WS1dJDFENpfBFIL-17" value="ABean依赖注入 BBean成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="110" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-18" target="9SPd8WS1dJDFENpfBFIL-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-18" value="ABean初始化完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="690" y="180" width="100" height="30" as="geometry" />
+          <mxGeometry x="710" y="180" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SPd8WS1dJDFENpfBFIL-19" target="9SPd8WS1dJDFENpfBFIL-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-19" value="ABean添加到一级缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="677.5" y="244" width="125" height="30" as="geometry" />
+          <mxGeometry x="697.5" y="244" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SPd8WS1dJDFENpfBFIL-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="685" y="320" width="110" height="46" as="geometry" />
+          <mxGeometry x="705" y="320" width="110" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
