@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T16:35:51.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="YNDDjG7hRndTnItYwzpA" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-31T16:37:22.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7JzkJtozB8hDDVLpPvUh" version="22.0.8" type="github" pages="2">
   <diagram name="1vs1音视频通话流程" id="CEUbCkrz-AgT4HGh3NTy">
     <mxGraphModel dx="844" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,12 +207,6 @@
         <mxCell id="wOfQMUhciinJpy3_DIqF-3" value="信令服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="210" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wOfQMUhciinJpy3_DIqF-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Devices_Groups.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="370" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="wOfQMUhciinJpy3_DIqF-6" value="主播端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="440" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wOfQMUhciinJpy3_DIqF-7" value="创建房间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="100" y="220" width="80" height="30" as="geometry" />
         </mxCell>
@@ -234,9 +228,9 @@
         <mxCell id="wOfQMUhciinJpy3_DIqF-16" value="观众" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="380" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wOfQMUhciinJpy3_DIqF-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.352;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wOfQMUhciinJpy3_DIqF-5" target="wOfQMUhciinJpy3_DIqF-3">
+        <mxCell id="wOfQMUhciinJpy3_DIqF-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.352;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wOfQMUhciinJpy3_DIqF-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="390" as="sourcePoint" />
+            <mxPoint x="275.21448153523625" y="370" as="sourcePoint" />
             <mxPoint x="330" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -245,9 +239,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wOfQMUhciinJpy3_DIqF-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.671;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wOfQMUhciinJpy3_DIqF-5" target="wOfQMUhciinJpy3_DIqF-10">
+        <mxCell id="wOfQMUhciinJpy3_DIqF-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.671;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="wOfQMUhciinJpy3_DIqF-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="390" as="sourcePoint" />
+            <mxPoint x="286.97" y="369.02" as="sourcePoint" />
             <mxPoint x="330" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -272,6 +266,9 @@
           <mxGeometry x="0.0409" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wOfQMUhciinJpy3_DIqF-27" value="主播端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
